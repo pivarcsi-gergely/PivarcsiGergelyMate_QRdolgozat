@@ -11,19 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SCAN"
-        android:textSize="25sp"/>
+        android:textSize="25sp"
+        android:id="@+id/ButtonScan"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="KIIR"
-        android:textSize="25sp"/>
+        android:textSize="25sp"
+        android:id="@+id/ButtonKiir" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="25sp"/>
+        android:textSize="25sp"
+        android:id="@+id/TVMegjelenit"/>
 
 
 </LinearLayout>
